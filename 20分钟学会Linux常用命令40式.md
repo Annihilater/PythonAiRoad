@@ -190,10 +190,13 @@ grep (global search regular expression(RE) and print out the line) 全面搜索�
 
 scp user@10.12.16.65:/home/user/xxx.csv xxx.csv
 
-
 例2：从当前机器copy到其他机器
 
 scp xxx.csv user@10.12.16.65:/home/user/xxx.csv
+
+例3：传输文件夹到其他机器
+
+scp -r path user@10.12.16.65:/home/user/
 
 <!-- #endregion -->
 
